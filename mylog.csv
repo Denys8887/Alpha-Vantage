@@ -1,0 +1,2 @@
+2021-06-28 19:47:38,850,DEBUG  MainProcess  Starting new HTTPS connection (1): www.alphavantage.co:443 
+2021-06-28 19:47:39,818,DEBUG  MainProcess  https://www.alphavantage.co:443 "GET /query?function=SMA&symbol=MSFT&interval=daily&time_period=200&series_type=close&apikey=8OY0HLH39FQO90QB HTTP/1.1" 200 None 
