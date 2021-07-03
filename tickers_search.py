@@ -7,4 +7,4 @@ s = requests.get(url).content
 companies = pd.read_csv(io.StringIO(s.decode('utf-8')))
 
 Symbols = companies['Symbol'].tolist()
-print(Symbols[:26]) #write number of tickers what do you want to find
+print(Symbols[50:76]) #write number of tickers what do you want to find
